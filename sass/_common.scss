@@ -29,3 +29,9 @@ body {
   display: inline-block;
   text-transform: uppercase;
 }
+
+.section-title {
+  color: v.$primary-color;
+  font-size: 2rem;
+  margin-bottom: 0.5em;
+}
