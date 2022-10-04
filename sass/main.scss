@@ -16,6 +16,17 @@
   button {
     margin-bottom: 1.5rem;
   }
+
+  .hero-list {
+    list-style-type: none;
+    padding-left: 0;
+
+    &__item::before {
+      content: '\f00c';
+      font-family: 'fontawesome';
+      padding-right: 0.5rem;
+    }
+  }
 }
 
 // Features ---------

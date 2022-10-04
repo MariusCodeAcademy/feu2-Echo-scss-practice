@@ -52,7 +52,8 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-p {
+p,
+li {
   color: rgba(0, 0, 0, 0.5);
   color: rgba(0, 0, 0, 0.5);
   font-size: 14px;
@@ -104,6 +105,15 @@ p {
 }
 .hero button {
   margin-bottom: 1.5rem;
+}
+.hero .hero-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+.hero .hero-list__item::before {
+  content: "\f00c";
+  font-family: "fontawesome";
+  padding-right: 0.5rem;
 }
 
 .features {
