@@ -19,3 +19,13 @@ body {
   background: transparent;
   color: v.$primary-color;
 }
+
+.header-pill {
+  background-color: v.$secondary-bg-color;
+  color: v.$secondary-color;
+  font-size: 10px;
+  border-radius: 20px;
+  padding: 0.5em 2em;
+  display: inline-block;
+  text-transform: uppercase;
+}
