@@ -7,3 +7,17 @@ $primary-color: #081158;
 $primary-light-color: #fff;
 $secondary-color: #fbb244;
 $secondary-bg-color: transparentize($secondary-color, 0.8);
+
+// Hero ---------
+
+.hero {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+
+  .hero__text {
+    margin-bottom: 2rem;
+  }
+  button {
+    margin-bottom: 1.5rem;
+  }
+}

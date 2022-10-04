@@ -4,6 +4,17 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+p {
+  color: transparentize(black, 0.5);
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+}
+
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .btn {
   border: none;
   padding: 0.8em 1.5em;

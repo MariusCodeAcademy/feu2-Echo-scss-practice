@@ -51,6 +51,17 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+p {
+  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+}
+
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .btn, .btn--outline {
   border: none;
   padding: 0.8em 1.5em;
@@ -81,4 +92,15 @@ body {
   color: #081158;
   font-size: 2rem;
   margin-bottom: 0.5em;
+}
+
+.hero {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+.hero .hero__text {
+  margin-bottom: 2rem;
+}
+.hero button {
+  margin-bottom: 1.5rem;
 }/*# sourceMappingURL=main.css.map */
