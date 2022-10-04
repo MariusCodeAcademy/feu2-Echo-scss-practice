@@ -1,6 +1,8 @@
 @use 'reset';
 @use 'common';
 
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+
 // vars
 
 $primary-color: #081158;
@@ -14,7 +16,7 @@ $secondary-bg-color: transparentize($secondary-color, 0.8);
   padding-top: 6rem;
   padding-bottom: 6rem;
 
-  .hero__text {
+  &__text {
     margin-bottom: 2rem;
   }
   button {
